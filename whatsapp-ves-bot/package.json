@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-ves-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node":">=20"},
+  "dependencies": {
+    "express":"^4.21.2",
+    "pg":"^8.13.3",
+    "plaid":"^31.0.0"
+  }
+}
